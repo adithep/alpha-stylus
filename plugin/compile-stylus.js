@@ -2,6 +2,8 @@ var fs = Npm.require('fs');
 var stylus = Npm.require('stylus');
 var nib = Npm.require('nib');
 var jeet = Npm.require('jeet');
+var axis = Npm.require('axis-css');
+var rupture = Npm.require('rupture');
 var alpmixins = Npm.require('alpmixins');
 var path = Npm.require('path');
 var Future = Npm.require('fibers/future');
@@ -20,6 +22,8 @@ Plugin.registerSourceHandler("styl", function (compileStep) {
   stylus(compileStep.read().toString('utf8'))
     .use(nib())
     .use(jeet())
+    .use(axis())
+    .use(rupture())
     .use(alpmixins())
     .set('filename', compileStep.inputPath)
     // Include needed to allow relative @imports in stylus files
@@ -45,4 +49,3 @@ Plugin.registerSourceHandler("styl", function (compileStep) {
 Plugin.registerSourceHandler("import.styl", function () {
   // Do nothing
 });
-
