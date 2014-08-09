@@ -1,5 +1,7 @@
 Package.describe({
-  summary: 'Expressive, dynamic, robust CSS'
+  summary: 'Expressive, dynamic, robust CSS',
+  version: "0.44.0",
+  git: "https://github.com/sbking/meteor-stylus-latest.git"
 });
 
 Package._transitional_registerBuildPlugin({
