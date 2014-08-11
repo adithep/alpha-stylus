@@ -10,7 +10,7 @@ Package._transitional_registerBuildPlugin({
   sources: [
     'plugin/compile-stylus.js'
   ],
-  npmDependencies: { stylus: "0.44.0", nib: "1.0.2", jeet: "5.2.8", "axis-css": "0.1.8", rupture: "0.1.0", alpmixins: "0.0.9" }
+  npmDependencies: { stylus: "0.47.3", nib: "1.0.3", jeet: "5.3.0", rupture: "0.3.0", alpmixins: "0.0.9" }
 });
 
 Package.on_test(function (api) {

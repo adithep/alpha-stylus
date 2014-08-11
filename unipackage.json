@@ -1,0 +1,15 @@
+{
+  "format": "unipackage-pre2",
+  "name": "bads:alpha-stylus",
+  "summary": "Expressive, dynamic, robust CSS",
+  "version": "1.0.1",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [
+    {
+      "name": "compileStylus",
+      "arch": "os",
+      "path": "plugin.compileStylus.os/program.json"
+    }
+  ]
+}

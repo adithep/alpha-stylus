@@ -41,39 +41,8 @@
         }
       }
     },
-    "axis-css": {
-      "version": "0.1.8",
-      "dependencies": {
-        "autoprefixer-stylus": {
-          "version": "0.0.3",
-          "dependencies": {
-            "autoprefixer": {
-              "version": "0.8.20131213",
-              "dependencies": {
-                "css-parse": {
-                  "version": "1.6.0"
-                },
-                "css-stringify": {
-                  "version": "1.4.1",
-                  "dependencies": {
-                    "source-map": {
-                      "version": "0.1.33",
-                      "dependencies": {
-                        "amdefine": {
-                          "version": "0.1.0"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "jeet": {
-      "version": "5.2.8",
+      "version": "5.3.0",
       "dependencies": {
         "stylus": {
           "version": "0.42.3",
@@ -85,16 +54,24 @@
               "version": "0.3.5"
             },
             "debug": {
-              "version": "0.8.1"
+              "version": "1.0.4",
+              "dependencies": {
+                "ms": {
+                  "version": "0.6.2"
+                }
+              }
             },
             "sax": {
               "version": "0.5.8"
             },
             "glob": {
-              "version": "3.2.9",
+              "version": "3.2.11",
               "dependencies": {
+                "inherits": {
+                  "version": "2.0.1"
+                },
                 "minimatch": {
-                  "version": "0.2.14",
+                  "version": "0.3.0",
                   "dependencies": {
                     "lru-cache": {
                       "version": "2.5.0"
@@ -103,9 +80,6 @@
                       "version": "1.0.0"
                     }
                   }
-                },
-                "inherits": {
-                  "version": "2.0.1"
                 }
               }
             }
@@ -114,7 +88,7 @@
       }
     },
     "nib": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "dependencies": {
         "stylus": {
           "version": "0.37.0",
@@ -126,7 +100,12 @@
               "version": "0.3.5"
             },
             "debug": {
-              "version": "0.8.0"
+              "version": "1.0.4",
+              "dependencies": {
+                "ms": {
+                  "version": "0.6.2"
+                }
+              }
             },
             "sax": {
               "version": "0.5.8"
@@ -136,10 +115,10 @@
       }
     },
     "rupture": {
-      "version": "0.1.0"
+      "version": "0.3.0"
     },
     "stylus": {
-      "version": "0.44.0",
+      "version": "0.47.3",
       "dependencies": {
         "css-parse": {
           "version": "1.7.0"
@@ -148,16 +127,24 @@
           "version": "0.3.5"
         },
         "debug": {
-          "version": "0.8.0"
+          "version": "1.0.4",
+          "dependencies": {
+            "ms": {
+              "version": "0.6.2"
+            }
+          }
         },
         "sax": {
           "version": "0.5.8"
         },
         "glob": {
-          "version": "3.2.9",
+          "version": "3.2.11",
           "dependencies": {
+            "inherits": {
+              "version": "2.0.1"
+            },
             "minimatch": {
-              "version": "0.2.14",
+              "version": "0.3.0",
               "dependencies": {
                 "lru-cache": {
                   "version": "2.5.0"
@@ -166,9 +153,6 @@
                   "version": "1.0.0"
                 }
               }
-            },
-            "inherits": {
-              "version": "2.0.1"
             }
           }
         }
